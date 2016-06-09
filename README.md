@@ -33,7 +33,12 @@ Tools:
 
 ## Usage
 
-- TODO: Carthage
+- [Carthage](https://github.com/alexcurylo/ScreamingParty):
+
+```
+github "alexcurylo/ScreamingParty"
+```
+
 - TODO: CocoaPods
 - TODO: Swift Package Manager
  
