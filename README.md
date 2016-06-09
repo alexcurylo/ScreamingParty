@@ -1,5 +1,5 @@
-[![Language](http://img.shields.io/badge/language-swift_2.2.1-orange.svg?style=flat)](https://developer.apple.com/swift)
-[![License](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)][linkMIT]
+[![Language](http://img.shields.io/badge/language-swift_2.2.1-orange.svg)](https://developer.apple.com/swift)
+[![License](http://img.shields.io/badge/license-MIT-lightgrey.svg)][linkMIT]
 
 [ScreamingParty](https://github.com/alexcurylo/ScreamingParty)
 ==================
@@ -20,7 +20,7 @@ Swift utilities collection. "The screaming helps the birds bond as a screaming p
 
 ## Purpose
 
-Collecting (MIT-licensable)[linkMIT] snippets, gists, small packages and so forth into a single stably versioned package.
+Collecting [MIT-licensable](linkMIT) snippets, gists, small packages and so forth into a single stably versioned package.
 
 ## Requirements
 
@@ -60,15 +60,17 @@ Feel free to [open an issue](https://github.com/alexcurylo/ScreamingParty/issues
 
 ## Author
 
-[![web: trollwerks.com](http://img.shields.io/badge/web-www.trollwerks.com-black.svg)](http://trollwerks.com) 
-[![twitter: @trollwerks](http://img.shields.io/badge/twitter-%40trollwerks-black.svg)](https://twitter.com/trollwerks) 
-[![email: alex@trollwerks.com](http://img.shields.io/badge/email-alex%40trollwerks.com-black.svg)](mailto:alex@trollwerks.com) 
+[![web: trollwerks.com](http://img.shields.io/badge/web-www.trollwerks.com-blue.svg)](http://trollwerks.com) 
+[![twitter: @trollwerks](http://img.shields.io/badge/twitter-%40trollwerks-blue.svg)](https://twitter.com/trollwerks) 
+[![email: alex@trollwerks.com](http://img.shields.io/badge/email-alex%40trollwerks.com-blue.svg)](mailto:alex@trollwerks.com) 
 
 ## License
 
 The [MIT License][linkMIT]. See the [LICENSE](LICENSE) file for details.
 
->**Copyright &copy; 2016 Trollwerks Inc.** and as per original authors
+>** ScreamingParty Copyright &copy; 2016 Trollwerks Inc.**
+ 
+>• [Then](https://github.com/devxoul/Then) Copyright &copy; 2015 Suyeol Jeon (xoul.kr)
 
 ## Change Log
 
