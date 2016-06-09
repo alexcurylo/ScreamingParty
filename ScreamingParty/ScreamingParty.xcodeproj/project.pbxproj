@@ -33,6 +33,9 @@
 		FA203A0E1D08EF7A004C1DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA203A171D0901D6004C1DA5 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
 		FA203A191D0901E5004C1DA5 /* ThenTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThenTests.swift; sourceTree = "<group>"; };
+		FA203A281D09B336004C1DA5 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FA203A291D09B336004C1DA5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FA203A2A1D09B4DB004C1DA5 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../../.gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		FA2039F31D08EF7A004C1DA5 = {
 			isa = PBXGroup;
 			children = (
+				FA203A291D09B336004C1DA5 /* README.md */,
+				FA203A281D09B336004C1DA5 /* LICENSE */,
 				FA2039FF1D08EF7A004C1DA5 /* ScreamingParty */,
 				FA203A0B1D08EF7A004C1DA5 /* ScreamingPartyTests */,
 				FA2039FE1D08EF7A004C1DA5 /* Products */,
@@ -77,7 +82,7 @@
 			children = (
 				FA203A001D08EF7A004C1DA5 /* ScreamingParty.h */,
 				FA203A171D0901D6004C1DA5 /* Then.swift */,
-				FA203A021D08EF7A004C1DA5 /* Info.plist */,
+				FA203A1D1D09B1FB004C1DA5 /* Support Files */,
 			);
 			path = ScreamingParty;
 			sourceTree = "<group>";
@@ -90,6 +95,15 @@
 				FA203A0E1D08EF7A004C1DA5 /* Info.plist */,
 			);
 			path = ScreamingPartyTests;
+			sourceTree = "<group>";
+		};
+		FA203A1D1D09B1FB004C1DA5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA203A021D08EF7A004C1DA5 /* Info.plist */,
+				FA203A2A1D09B4DB004C1DA5 /* .gitignore */,
+			);
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,6 +403,7 @@
 				FA203A131D08EF7A004C1DA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA203A141D08EF7A004C1DA5 /* Build configuration list for PBXNativeTarget "ScreamingPartyTests" */ = {
 			isa = XCConfigurationList;
@@ -397,6 +412,7 @@
 				FA203A161D08EF7A004C1DA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
