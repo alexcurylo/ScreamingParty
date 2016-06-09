@@ -33,10 +33,10 @@ Tools:
 
 ## Usage
 
-- [Carthage](https://github.com/alexcurylo/ScreamingParty):
+- [Carthage](https://github.com/alexcurylo/ScreamingParty): No tags yet, so
 
 ```
-github "alexcurylo/ScreamingParty"
+github "alexcurylo/ScreamingParty" "HEAD"
 ```
 
 - TODO: CocoaPods
