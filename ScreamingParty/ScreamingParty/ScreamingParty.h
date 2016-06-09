@@ -6,7 +6,7 @@
 //  Copyright © 2016 Trollwerks Inc. All rights reserved.
 //
 
-@import Foundation
+@import Foundation;
 
 //! Project version number for ScreamingParty.
 FOUNDATION_EXPORT double ScreamingPartyVersionNumber;
