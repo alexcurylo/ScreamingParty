@@ -1,8 +1,9 @@
-[![Language](http://img.shields.io/badge/language-swift_2.2.1-orange.svg)](https://developer.apple.com/swift)
-[![License](http://img.shields.io/badge/license-MIT-lightgrey.svg)][linkMIT]
-
-[ScreamingParty](https://github.com/alexcurylo/ScreamingParty)
+# [ScreamingParty](https://github.com/alexcurylo/ScreamingParty)
 ==================
+[![Language](http://img.shields.io/badge/language-swift_2.2.1-orange.svg)](https://developer.apple.com/swift)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![SPM](https://img.shields.io/badge/SPM-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
+[![License](http://img.shields.io/badge/license-MIT-lightgrey.svg)][linkMIT] 
 
 Swift utilities collection. "The screaming helps the birds bond as a screaming party..." [Video](https://www.youtube.com/watch?v=gA925WlKKF4)
 
