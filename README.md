@@ -4,7 +4,9 @@
 [![SPM](https://img.shields.io/badge/SPM-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![License](http://img.shields.io/badge/license-MIT-lightgrey.svg)][linkMIT] 
 
-Swift utilities collection. "The screaming helps the birds bond as a screaming party..." [Video](https://www.youtube.com/watch?v=gA925WlKKF4)
+[comment]: # (CocoaPods badges: [![Version Status](https://img.shields.io/cocoapods/v/JSQCoreDataKit.svg)][podLink] [![Platform](https://img.shields.io/cocoapods/p/JSQCoreDataKit.svg)][podLink] [![license MIT](https://img.shields.io/cocoapods/l/JSQCoreDataKit.svg)][linkMIT])
+
+Swift utilities collection. *“The screaming helps the birds bond as a [screaming party...](https://www.youtube.com/watch?v=gA925WlKKF4)”*
 
 ## Table of Contents
 
@@ -25,7 +27,7 @@ Collecting [MIT-licensable](linkMIT) snippets, gists, small packages and so fort
 ## Requirements
 
 - Xcode 7.3.1 or later
-- iOS 9.0 or later
+- iOS 9.3 or later
 
 Tools:
 
@@ -54,8 +56,11 @@ Tools:
     )
     ```
 
-- TODO: CocoaPods
+- [CocoaPods](https://cocoapods.org) [Not deployed!]:
 
+    ```ruby
+    pod 'ScreamingParty'
+    ```
 
 To use directly, build the framework with the 'ScreamingParty' target.
  
