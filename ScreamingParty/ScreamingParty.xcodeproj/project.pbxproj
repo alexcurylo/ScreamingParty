@@ -11,12 +11,7 @@
 		FA203A081D08EF7A004C1DA5 /* ScreamingParty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2039FD1D08EF7A004C1DA5 /* ScreamingParty.framework */; };
 		FA203A0D1D08EF7A004C1DA5 /* ScreamingPartyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA203A0C1D08EF7A004C1DA5 /* ScreamingPartyTests.swift */; };
 		FA203A1A1D0901E5004C1DA5 /* ThenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA203A191D0901E5004C1DA5 /* ThenTests.swift */; };
-		FA4D57B41D0C46DE00F5BBC3 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = FA4D57B31D0C46DE00F5BBC3 /* .gitkeep */; };
-		FA4D57B81D0C46E800F5BBC3 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = FA4D57B61D0C46E800F5BBC3 /* .gitkeep */; };
 		FA4D57B91D0C46E800F5BBC3 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D57B71D0C46E800F5BBC3 /* Then.swift */; };
-		FA4D57BC1D0C512200F5BBC3 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = FA4D57BB1D0C512200F5BBC3 /* .travis.yml */; };
-		FA4D57BF1D0C548A00F5BBC3 /* .coveralls.yml in Resources */ = {isa = PBXBuildFile; fileRef = FA4D57BD1D0C548A00F5BBC3 /* .coveralls.yml */; };
-		FA4D57C01D0C548A00F5BBC3 /* .slather.yml in Resources */ = {isa = PBXBuildFile; fileRef = FA4D57BE1D0C548A00F5BBC3 /* .slather.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -258,11 +253,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA4D57BC1D0C512200F5BBC3 /* .travis.yml in Resources */,
-				FA4D57C01D0C548A00F5BBC3 /* .slather.yml in Resources */,
-				FA4D57B81D0C46E800F5BBC3 /* .gitkeep in Resources */,
-				FA4D57B41D0C46DE00F5BBC3 /* .gitkeep in Resources */,
-				FA4D57BF1D0C548A00F5BBC3 /* .coveralls.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
