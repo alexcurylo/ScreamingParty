@@ -35,13 +35,28 @@ Tools:
 
 - [Carthage](https://github.com/alexcurylo/ScreamingParty): No tags yet, so
 
-```
-github "alexcurylo/ScreamingParty" "HEAD"
-```
+    ```
+    github "alexcurylo/ScreamingParty" "HEAD"
+    ```
+
+- [Swift Package Manager](https://swift.org/package-manager) [Untested!]:
+ 
+    ```swift
+    import PackageDescription
+
+    let package = Package(
+        name: "YourApp",
+        targets: [],
+        dependencies: [
+            .Package(url: "https://github.com/alexcurylo/ScreamingParty.git",
+                     majorVersion: 0),
+        ]
+    )
+    ```
 
 - TODO: CocoaPods
-- TODO: Swift Package Manager
- 
+
+
 To use directly, build the framework with the 'ScreamingParty' target.
  
 ## Testing

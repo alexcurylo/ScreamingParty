@@ -36,6 +36,7 @@
 		FA203A281D09B336004C1DA5 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FA203A291D09B336004C1DA5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FA203A2A1D09B4DB004C1DA5 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../../.gitignore; sourceTree = "<group>"; };
+		FA7E95E41D0B900D001FEDB7 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../../Package.swift; sourceTree = "<group>"; };
 		FACFD8C51D0A222D002077D6 /* project_base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project_base.xcconfig; sourceTree = "<group>"; };
 		FACFD8C61D0A222D002077D6 /* project_Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project_Debug.xcconfig; sourceTree = "<group>"; };
 		FACFD8C71D0A222D002077D6 /* project_Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project_Release.xcconfig; sourceTree = "<group>"; };
@@ -111,6 +112,7 @@
 			children = (
 				FA203A021D08EF7A004C1DA5 /* Info.plist */,
 				FACFD8C41D0A222D002077D6 /* ScreamingPartyConfig */,
+				FA7E95E41D0B900D001FEDB7 /* Package.swift */,
 				FA203A2A1D09B4DB004C1DA5 /* .gitignore */,
 			);
 			name = "Support Files";
