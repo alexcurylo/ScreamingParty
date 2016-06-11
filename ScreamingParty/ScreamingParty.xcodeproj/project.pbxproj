@@ -268,7 +268,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FACFD8C61D0A222D002077D6 /* project_Debug.xcconfig */;
 			buildSettings = {
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -276,7 +275,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FACFD8C71D0A222D002077D6 /* project_Release.xcconfig */;
 			buildSettings = {
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -284,16 +282,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FACFD8C91D0A222D002077D6 /* ScreamingParty_Debug.xcconfig */;
 			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ScreamingParty/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.trollwerks.ScreamingParty;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -301,16 +289,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FACFD8CA1D0A222D002077D6 /* ScreamingParty_Release.xcconfig */;
 			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ScreamingParty/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.trollwerks.ScreamingParty;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
