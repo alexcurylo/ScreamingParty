@@ -27,7 +27,7 @@ before_install:
 # - brew update
 # - brew outdated carthage || brew upgrade carthage
 # - brew install swiftlint
-# - gem install slather --no-rdoc --no-ri --no-document --quiet
+ - gem install slather --no-rdoc --no-ri --no-document --quiet
  - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
  - gem install xcpretty-travis-formatter --no-rdoc --no-ri --no-document --quiet
 
@@ -52,6 +52,6 @@ script:
     GCC_GENERATE_TEST_COVERAGE_FILES=YES
     | xcpretty -f `xcpretty-travis-formatter`
 
-#after_success:
+after_success:
 # - swiftlint
-# - slather
+ - slather
