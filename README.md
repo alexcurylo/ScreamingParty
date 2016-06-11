@@ -2,6 +2,7 @@
 [![Language](http://img.shields.io/badge/language-swift_2.2.1-orange.svg)](https://developer.apple.com/swift)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![SPM](https://img.shields.io/badge/SPM-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
+[![Build Status](https://travis-ci.org/alexcurylo/ScreamingParty.svg?branch=develop)](https://travis-ci.org/alexcurylo/ScreamingParty)
 [![License](http://img.shields.io/badge/license-MIT-lightgrey.svg)][linkMIT] 
 
 [comment]: # (CocoaPods badges: [![Version Status](https://img.shields.io/cocoapods/v/JSQCoreDataKit.svg)][podLink] [![Platform](https://img.shields.io/cocoapods/p/JSQCoreDataKit.svg)][podLink] [![license MIT](https://img.shields.io/cocoapods/l/JSQCoreDataKit.svg)][linkMIT])

@@ -14,6 +14,7 @@
 		FA4D57B41D0C46DE00F5BBC3 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = FA4D57B31D0C46DE00F5BBC3 /* .gitkeep */; };
 		FA4D57B81D0C46E800F5BBC3 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = FA4D57B61D0C46E800F5BBC3 /* .gitkeep */; };
 		FA4D57B91D0C46E800F5BBC3 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D57B71D0C46E800F5BBC3 /* Then.swift */; };
+		FA4D57BC1D0C512200F5BBC3 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = FA4D57BB1D0C512200F5BBC3 /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		FA4D57B31D0C46DE00F5BBC3 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		FA4D57B61D0C46E800F5BBC3 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		FA4D57B71D0C46E800F5BBC3 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
+		FA4D57BB1D0C512200F5BBC3 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../../.travis.yml; sourceTree = "<group>"; };
 		FA7E95E41D0B900D001FEDB7 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../../Package.swift; sourceTree = "<group>"; };
 		FA7E95E51D0B9CA8001FEDB7 /* ScreamingParty.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ScreamingParty.podspec; path = ../ScreamingParty.podspec; sourceTree = SOURCE_ROOT; };
 		FACFD8C51D0A222D002077D6 /* project_base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project_base.xcconfig; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				FA203A001D08EF7A004C1DA5 /* ScreamingParty.h */,
 				FA4D57B21D0C46DE00F5BBC3 /* Assets */,
 				FA4D57B51D0C46E800F5BBC3 /* Classes */,
+				FACFD8C41D0A222D002077D6 /* ScreamingPartyConfig */,
 				FA203A1D1D09B1FB004C1DA5 /* Metadata */,
 			);
 			path = ScreamingParty;
@@ -117,10 +120,10 @@
 			isa = PBXGroup;
 			children = (
 				FA203A021D08EF7A004C1DA5 /* Info.plist */,
-				FACFD8C41D0A222D002077D6 /* ScreamingPartyConfig */,
 				FA7E95E41D0B900D001FEDB7 /* Package.swift */,
 				FA7E95E51D0B9CA8001FEDB7 /* ScreamingParty.podspec */,
 				FA203A2A1D09B4DB004C1DA5 /* .gitignore */,
+				FA4D57BB1D0C512200F5BBC3 /* .travis.yml */,
 			);
 			name = Metadata;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4D57BC1D0C512200F5BBC3 /* .travis.yml in Resources */,
 				FA4D57B81D0C46E800F5BBC3 /* .gitkeep in Resources */,
 				FA4D57B41D0C46DE00F5BBC3 /* .gitkeep in Resources */,
 			);
