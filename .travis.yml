@@ -38,6 +38,7 @@ install:
 #before_script:
 
 script:
+ - open -b com.apple.iphonesimulator
  - >
     set -o pipefail && xcodebuild clean test
     -project ScreamingParty.xcodeproj
