@@ -180,6 +180,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA203A111D08EF7A004C1DA5 /* Build configuration list for PBXNativeTarget "ScreamingParty" */;
 			buildPhases = (
+				FA4D57C11D0C6C4400F5BBC3 /* SwiftLint */,
 				FA2039F81D08EF7A004C1DA5 /* Sources */,
 				FA2039F91D08EF7A004C1DA5 /* Frameworks */,
 				FA2039FA1D08EF7A004C1DA5 /* Headers */,
@@ -264,6 +265,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FA4D57C11D0C6C4400F5BBC3 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA2039F81D08EF7A004C1DA5 /* Sources */ = {
