@@ -12,6 +12,7 @@
 		FA203A0D1D08EF7A004C1DA5 /* ScreamingPartyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA203A0C1D08EF7A004C1DA5 /* ScreamingPartyTests.swift */; };
 		FA203A1A1D0901E5004C1DA5 /* ThenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA203A191D0901E5004C1DA5 /* ThenTests.swift */; };
 		FA4D57B91D0C46E800F5BBC3 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D57B71D0C46E800F5BBC3 /* Then.swift */; };
+		FA684EC51D33131D00D2D4F3 /* RawRepresentable-Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA684EC41D33131D00D2D4F3 /* RawRepresentable-Equatable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		FA4D57BB1D0C512200F5BBC3 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../../.travis.yml; sourceTree = "<group>"; };
 		FA4D57BD1D0C548A00F5BBC3 /* .coveralls.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .coveralls.yml; sourceTree = SOURCE_ROOT; };
 		FA4D57BE1D0C548A00F5BBC3 /* .slather.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .slather.yml; sourceTree = SOURCE_ROOT; };
+		FA684EC41D33131D00D2D4F3 /* RawRepresentable-Equatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RawRepresentable-Equatable.swift"; sourceTree = "<group>"; };
 		FA7E95E41D0B900D001FEDB7 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../../Package.swift; sourceTree = "<group>"; };
 		FA7E95E51D0B9CA8001FEDB7 /* ScreamingParty.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ScreamingParty.podspec; path = ../ScreamingParty.podspec; sourceTree = SOURCE_ROOT; };
 		FACFD8C51D0A222D002077D6 /* project_base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project_base.xcconfig; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				FA4D57B71D0C46E800F5BBC3 /* Then.swift */,
+				FA684EC41D33131D00D2D4F3 /* RawRepresentable-Equatable.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA684EC51D33131D00D2D4F3 /* RawRepresentable-Equatable.swift in Sources */,
 				FA4D57B91D0C46E800F5BBC3 /* Then.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
