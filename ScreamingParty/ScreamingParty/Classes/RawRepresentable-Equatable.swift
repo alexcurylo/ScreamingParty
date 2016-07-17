@@ -10,10 +10,12 @@
 
 import Foundation
 
-func ==<U: Equatable, T: protocol<RawRepresentable, Equatable> where T.RawValue == U>(lhs: U, rhs: T) -> Bool {
+typealias RawEquatable = protocol<RawRepresentable, Equatable>
+
+func ==<U: Equatable, T: RawEquatable where T.RawValue == U>(lhs: U, rhs: T) -> Bool {
     return lhs == rhs.rawValue
 }
 
-func !=<U: Equatable, T: protocol<RawRepresentable, Equatable> where T.RawValue == U>(lhs: U, rhs: T) -> Bool {
+func !=<U: Equatable, T: RawEquatable where T.RawValue == U>(lhs: U, rhs: T) -> Bool {
     return lhs != rhs.rawValue
 }
