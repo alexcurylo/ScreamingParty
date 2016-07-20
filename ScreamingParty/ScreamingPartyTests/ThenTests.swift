@@ -18,12 +18,14 @@ extension User: Then {}
 class ThenTests: XCTestCase {
 
     func testThen_object() {
-        let queue = OperationQueue().then {
+        let newQueue = OperationQueue()
+        let queue = newQueue.then {
             $0.name = "awesome"
             $0.maxConcurrentOperationCount = 5
         }
         XCTAssertEqual(queue.name, "awesome")
         XCTAssertEqual(queue.maxConcurrentOperationCount, 5)
+        XCTAssert(queue === newQueue)
     }
 
     func testThen_value() {
